@@ -1,12 +1,34 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/dashboard/dashboard",
+    "pages/cart/cart"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "恒信贵族家居旗舰店",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "backgroundColor":"#fff",
+    "selectedColor":"#d8519d",
+    "list":[{
+      "selectedIconPath":"images/icon/icon-home-active.png",
+      "iconPath": "images/icon/icon-home.png",
+      "pagePath":"pages/home/home",
+      "text":"首页"
+      
+    },{
+      "selectedIconPath":"images/icon/icon-cart-active.png",
+      "iconPath": "images/icon/icon-cart.png",
+      "pagePath":"pages/cart/cart",
+      "text":"购物车"
+    },{
+      "selectedIconPath":"images/icon/icon-user-active.png",
+      "iconPath":"images/icon/icon-user.png",
+      "pagePath":"pages/dashboard/dashboard",
+      "text":"个人中心"
+    }]
   }
 }

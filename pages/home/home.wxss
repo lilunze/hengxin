@@ -1,0 +1,102 @@
+page
+{
+  background: #f3f4f6;
+}
+.navbar
+{
+  text-align: center;
+  background: #fff;
+  /* margin-top: 10rpx; */
+  /* box-shadow: -2px -2px 20px rgba(0,0,0,0.1);  */
+  line-height: 80rpx;
+}
+.navbar .nav-item
+{
+  font-size: 28rpx;
+  color: #000;
+  display: inline-block;
+  width: 187.5rpx;
+  height: 100%;
+}
+.navbar .nav-item text
+{
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+}
+.navbar .on text
+{
+  color: #d8519d;
+  font-weight: bold;
+  border-bottom: 4rpx solid #d8519d;
+}
+
+/* 首页 */
+.carousel
+{
+  height: 410rpx;
+}
+.carousel image
+{
+  width: 100%;
+}
+
+.desc image
+{
+  width: 100%;
+}
+
+/* 全部商品 */
+.list
+{
+  text-align: center;
+  padding-top: 10rpx;
+}
+.product
+{
+  text-align: left;
+  display: inline-block;
+  width: 355rpx;
+  background: #fff;
+  margin: 0 6.6rpx;
+  padding-bottom: 20rpx;
+}
+.product .cover image
+{
+  width: 100%;
+  vertical-align: top;
+}
+.product .price
+{
+  padding: 20rpx;
+}
+.product .price text
+{
+  margin-right: 10rpx;
+}
+.product .price .now
+{
+  font-size: 30rpx;
+  color: #000;
+}
+.product .price .old
+{
+  text-decoration: line-through;
+}
+.product .price .old,.product .price .sale
+{
+  font-size: 20rpx;
+  color: #a1a1a3;
+}
+.product .product-desc
+{
+  font-size: 24rpx;
+  line-height: 20px;
+  color: #606062;
+  padding: 0rpx 20rpx ;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,9 @@
+<!--pages/cart/cart.wxml-->
+<view>
+  <view class='empty-cart'>
+    <image src='/images/element/empty-cart.jpg' mode='widthFix'></image>
+  </view>
+  <view class='button'>
+    <text bindtap='redirect'>快去购物吧</text>
+  </view>
+</view>

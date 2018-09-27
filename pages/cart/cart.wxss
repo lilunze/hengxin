@@ -1,0 +1,18 @@
+/* pages/cart/cart.wxss */
+.empty-cart
+{
+  text-align: center;
+}
+
+.button
+{
+  text-align: center;
+}
+.button text
+{
+  display: inline-block;
+  font-size: 30rpx;
+  color: #d8519d;
+  border: 1px solid #d8519d;
+  padding: 10rpx 20rpx;
+}
